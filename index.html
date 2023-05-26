@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <title>News Website </title>
+    
+</head>
+
+
+<header>
+    
+        <div class="menu-container">
+            <div class="main-menu">
+                <div class="blog">Blog</div>
+                <div class="courses">Our courses</div>
+                <div class="freeweb">Free webinars</div>
+                <div class="review">Reviews</div>
+            </div>
+        
+            <div class="btn">
+                <div class="sgnup">Signup</div>
+                <div class="login-btn">
+                    <div class="login">Login</div>
+                </div>
+            </div>
+        </div>
+        <img class="logo-ref" src="images/Logo1.png"></img>
+        <img class="logo-menu-burger" src="images/MenuBur.png"></img>
+      
+    
+
+</header>
+
+<body>
+    <div class="divclassbody">
+     
+        <div class="card1" id="card1" onmouseover="displayCheck(`icon-A1`)" onmouseleave="displayCheck(`icon-A1`)">
+            <div class="img1" id="img1"></div>
+                <div class="shad1" id="shad1" onclick="withShadow(this,`icon-A1`),withCross(`cross1`)" onmouseover="withCross(`cross1`)" onmouseleave="withCross(`cross1`)"></div>
+                <div class="icon-cross" id="cross1" onclick="removeCard(`card1`)"></div>
+            <div class="cardinfo">
+                <div class="card-infoA">
+                   <!-- <image class="icon-A1" src="icon/done.png"></image> -->
+                    <div class="icon-A1" id="icon-A1" onclick="withShadow(`img1`)"></div>
+                   <div class="title">How Much Do Data Analysts Make? 2023 Salary Guide</div>
+                    <div class="element">
+                        <div class="line-A"></div>
+                        <div class="post-info-A">
+                            <div class="sort-date-box">
+                                <div class="text-date">February 24, 2023</div>
+                            </div>
+                            <div class="sort-fav-box">
+                                <div class="icon-fav" onclick="favorite(this)">
+                                    <!-- <div class="icon-fav">
+                                    <image class="icon-A1" id="heart8" src="icon/active.png"></image>
+                                    </div> -->
+                                </div>
+                                <div class="text-fav">2,6k</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+      
+        <div class="card2" id="card2">
+            <!-- <img class="img2" src="images/Image2.png" onclick="clickRead(this)"></img> -->
+            <div class="img2" id="img1"></div>
+                <div class="shad1" id="shad1" onclick="withShadow(this,`icon-A2`),withCross(`cross2`)" onmouseover="withCross(`cross2`)" onmouseleave="withCross(`cross2`)"></div>
+                <div class="icon-cross" id="cross2" onclick="removeCard(`card2`)"></div>
+            <div class="cardinfoB">
+                <div class="card-infoB">
+                    <!-- <image class="icon-B" src="icon/done.png"></image> -->
+                <div class="icon-A1" id="icon-A2"></div>
+                    <div class="titleB">Who is a Business Analyst: Roles, Skills, Salaries, Job Prospects</div>
+                    <div class="element">
+                        <div class="line-A"></div>
+                        <div class="post-info-A">
+                            <div class="sort-date-box">
+                                <div class="text-date">February 22, 2023</div>
+                            </div>
+                            <div class="sort-fav-box">
+                                <div class="icon-fav" onclick="favorite(this)">
+                                    <!-- <div class="icon-fav">
+                                                                        <image class="icon-A1" id="heart8" src="icon/active.png"></image>
+                                                                    </div> -->
+                                </div>
+                                <div class="text-fav">2,4k</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card3" id="card3">
+        <div class="img3" id="img3"></div>
+            <div class="shad1" id="shad1" onclick="withShadow(this,`icon-A3`),withCross(`cross3`)" onmouseover="withCross(`cross3`)" onmouseleave="withCross(`cross3`)"></div>
+            <div class="icon-cross" id="cross3" onclick="removeCard(`card3`)"></div>
+            <div class="cardinfoC">
+                <div class="card-infoC">
+                    <div class="icon-A1" id="icon-A3"></div>
+                    <!-- <image class="icon-B" src="icon/done.png"></image> -->
+                    <div class="titleC">What is JavaScript?</div>
+                    <div class="element">
+                        <div class="line-A"></div>
+                        <div class="post-info-A">
+                            <div class="sort-date-box">
+                                <div class="text-date">February 16, 2023</div>
+                            </div>
+                            <div class="sort-fav-box">
+                                <div class="icon-fav" onclick="favorite(this)">
+                                    <!-- <div class="icon-fav">
+                                    <image class="icon-A1" id="heart8" src="icon/active.png"></image>
+                                    </div> -->
+                                </div>
+                                <div class="text-fav">3,1k</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card4" id="card4">
+        <div class="img4" id="img4"></div>
+            <div class="shad1" id="shad1" onclick="withShadow(this,`icon-A4`),withCross(`cross4`)" onmouseover="withCross(`cross4`)" onmouseleave="withCross(`cross4`)"></div>
+            <div class="icon-cross" id="cross4" onclick="removeCard(`card4`)"></div>
+            <div class="cardinfoD">
+                <div class="card-infoD">
+                    <div class="icon-A1" id="icon-A4"></div>
+                    <!-- <image class="icon-B" src="icon/done.png"></image> -->
+                    <div class="titleD">Hard Skills vs. Soft Skills: Do You Realy Need Both?Why?</div>
+                    <div class="element">
+                        <div class="line-A"></div>
+                        <div class="post-info-A">
+                            <div class="sort-date-box">
+                                <div class="text-date">February 10, 2023</div>
+                            </div>
+                            <div class="sort-fav-box">
+                                <div class="icon-fav" onclick="favorite(this)">
+                                    <!-- <div class="icon-fav">
+                                    <image class="icon-A1" id="heart8" src="icon/active.png"></image>
+                                    </div> -->
+                                </div>
+                                <div class="text-fav">4,9k</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card5" id="card5">
+            <div class="img5" id="img5"></div>
+                <div class="shad1" id="shad1" onclick="withShadow(this,`icon-A5`),withCross(`cross5`)" onmouseover="withCross(`cross5`)" onmouseleave="withCross(`cross5`)"></div>
+                <div class="icon-cross" id="cross5" onclick="removeCard(`card5`)"></div>
+            <div class="cardinfoE">
+                <div class="card-infoE">
+                    <div class="icon-A1" id="icon-A5"></div>
+                    <!-- <image class="icon-B" src="icon/done.png"></image> -->
+                    <div class="titleE">7 Learning Tips for Data Science Self-Study</div>
+                    <div class="element">
+                        <div class="line-A"></div>
+                        <div class="post-info-A">
+                            <div class="sort-date-box">
+                                <div class="text-date">February 1, 2023</div>
+                            </div>
+                            <div class="sort-fav-box">
+                                <div class="icon-fav" onclick="favorite(this)">
+                                    <!-- <div class="icon-fav">
+                                    <image class="icon-A1" id="heart8" src="icon/active.png"></image>
+                                    </div> -->
+                                </div>
+                                <div class="text-fav">4,9k</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card6" id="card6">
+            <div class="img6" id="img6"></div>
+                <div class="shad1" id="shad1" onclick="withShadow(this,`icon-A6`),withCross(`cross6`)" onmouseover="withCross(`cross6`)" onmouseleave="withCross(`cross6`)"></div>
+                <div class="icon-cross" id="cross6" onclick="removeCard(`card6`)"></div>
+            <div class="cardinfoF">
+                <div class="card-infoF">
+                    <div class="icon-A1" id="icon-A6"></div>
+                    <!-- <image class="icon-B" src="icon/done.png"></image>  -->
+                    <div class="titleF">IT Jobs: In-Demand, Available to Everyone, Ripe With Opportunity</div>
+                    <div class="element">
+                        <div class="line-A"></div>
+                        <div class="post-info-A">
+                            <div class="sort-date-box">
+                                <div class="text-date">January 29, 2023</div>
+                            </div>
+                            <div class="sort-fav-box">
+                                <div class="icon-fav" onclick="favorite(this)">
+                                    <!-- <div class="icon-fav">
+                                     <image class="icon-A1" id="heart8" src="icon/active.png"></image>
+                                    </div> -->
+                                </div>
+                                <div class="text-fav">7,6k</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card7" id="card7">
+            <div class="img7" id="img7"></div>
+                <div class="shad1" id="shad1" onclick="withShadow(this,`icon-A7`),withCross(`cross7`)" onmouseover="withCross(`cross7`)" onmouseleave="withCross(`cross7`)"></div>
+                <div class="icon-cross" id="cross7" onclick="removeCard(`card7`)"></div>
+            <div class="cardinfoG">
+                <div class="card-infoG">
+                    <div class="icon-A1" id="icon-A7"></div>
+                    <!-- <image class="icon-B" src="icon/done.png"></image> -->
+                    <div class="titleG">What are Soft Skills and How Do They Benefit Your Career?</div>
+                    <div class="element">
+                        <div class="line-A"></div>
+                        <div class="post-info-A">
+                            <div class="sort-date-box">
+                                <div class="text-date">February 1, 2023</div>
+                            </div>
+                            <div class="sort-fav-box">
+                                <div class="icon-fav" onclick="favorite(this)">
+                                    <!-- <div class="icon-fav">
+                                                                        <image class="icon-A1" id="heart8" src="icon/active.png"></image>
+                                                                    </div> -->
+                                </div>
+                                <div class="text-fav">4,9k</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card8" id="card8">
+            <div class="img8" id="img8"></div>
+            <div class="shad1" id="shad1" onclick="withShadow(this,`icon-A8`),withCross(`cross8`)" onmouseover="withCross(`cross8`)" onmouseleave="withCross(`cross8`)"></div>
+            <div class="icon-cross" id="cross8" onclick="removeCard(`card8`)"></div>
+            <div class="cardinfoH">
+                <div class="card-infoH">
+                    <div class="icon-A1" id="icon-A8"></div>
+                    <!-- <image class="icon-B" src="icon/done.png"></image> -->
+                    <div class="titleH">Who is a Business Analyst: Roles, Skills, Salaries, Job Prospects</div>
+                    <div class="element">
+                        <div class="line-A"></div>
+                        <div class="post-info-A">
+                            <div class="sort-date-box">
+                                <div class="text-date">January 12, 2023</div>
+                            </div>
+                            <div class="sort-fav-box">
+                                <div class="icon-fav" onclick="favorite(this)">
+                                    <!-- <div class="icon-fav">
+                                        <image class="icon-A1" id="heart8" src="icon/active.png"></image>
+                                    </div> -->
+                                </div>
+                                <div class="text-fav">3,2k</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card9" id="card9">
+           
+            <div class="img9" id="img9"></div>
+            <div class="shad1" id="shad1" onclick="withShadow(this,`icon-A9`),withCross(`cross9`)" onmouseover="withCross(`cross9`)" onmouseleave="withCross(`cross9`)"></div>
+            <div class="icon-cross" id="cross9" onclick="removeCard(`card9`)"></div>
+            <div class="cardinfoI">
+                <div class="card-infoI">
+                    <div class="icon-A1" id="icon-A9"></div>
+                    <div class="titleI">Front-End vs Back-End Developer: What's the Difference?</div>
+                    <div class="element">
+                        <div class="line-A"></div>
+                        <div class="post-info-A">
+                            <div class="sort-date-box">
+                                <div class="text-date">January 3, 2023</div>
+                            </div>
+                            <div class="sort-fav-box">
+                                <!-- <div class="icon-fav"> -->
+                                    <div class="icon-fav" onclick="favorite(this)">
+                                       <!-- <div class="favorite"></div>  -->
+                                        <!-- <image class="icon-A1" id="heart9" src="icon/active.png"></image> -->
+                                    </div>
+                                <!-- </div> -->
+                                <div class="text-fav">4,8k</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div>
+</body>
+<div class="footer">
+<div class="pc-footer">
+  <div class="leg-desk">
+    <div class="ref-desk">© Refocus Limited 2022</div>
+    <div class="policy-desk">Privacy Policy</div>
+    <div class="dot-desk">.</div>
+    <div class="terms-desk">Terms of Use</div>
+  </div>
+    
+<div class="frame-B">
+    <div class="follow-us">Follow Us</div>
+    <div class="social-net">
+        <image class="insta" src="icon/icon.png"></image>
+        <image class="insta1" src="icon/icon_insta.png"></image>
+        <image class="fb" src="icon/icon_fb.png"></image>
+        <image class="tw" src="icon/icon_twitter.png"></image>
+        <image class="Wu" src="icon/icon_whatsup.png"></image>
+        <image class="tk" src="icon/icon_tiktok.png"></image>
+        <image class="yt" src="icon/icon_youtube.png"></image>
+    </div>
+   
+</div>
+  <div class="frame-A">
+    <div class="blog1">
+        <div class="blog-text">BLOG  
+        </div>
+        <div class="footer-menu">
+            <div class="menu-1">Data Analyst</div>
+            <div class="menu-2">Web Developer</div>
+            <div class="menu-3">Career</div>
+            <div class="menu-4">Success Stories</div>
+            <div class="menu-5">Resume</div>
+            <div class="menu-6">Hard Skills</div>
+            <div class="menu-7">Soft Skills</div>
+        </div>
+        <div class="footer-menu-mobile-A">
+            <div class="menu-1-mobile">Data Analyst</div>
+            <div class="menu-2-mobile">Web Developer</div>
+        </div>
+        <div class="footer-menu-mobile-B">
+            <div class="menu-3-mobile">Career</div>
+            <div class="menu-4-mobile">Success Stories</div>
+            <div class="menu-5-mobile">Resume</div>
+        </div>
+        <div class="footer-menu-mobile-C">
+                <div class="menu-6-mobile">Hard Skills</div>
+                <div class="menu-7-mobile">Soft Skills</div>
+        </div>
+    
+    </div>
+
+    <div class="courses-footer">
+        <div class="courses-text">OUR COURSES</div>
+        <div class="courses-menu">
+            <div class="course-1">Data Analytics</div>
+            <div class="course-2">Web Development</div>
+        </div>
+        
+    </div>
+  </div>
+<div class="follow-us-mob">Follow Us</div>
+<div class="social-net-mob">
+    <image class="insta-mob" src="icon/icon.png"></image>
+    <image class="insta1-mob" src="icon/icon_insta.png"></image>
+    <image class="fb-mob" src="icon/icon_fb.png"></image>
+    <image class="tw-mob" src="icon/icon_twitter.png"></image>
+    <image class="Wu-mob" src="icon/icon_whatsup.png"></image>
+    <image class="tk-mob" src="icon/icon_tiktok.png"></image>
+    <image class="yt-mob" src="icon/icon_youtube.png"></image>
+</div>
+<div class="leg-mobile">
+    <div class="policy-mobile">Privacy Policy</div>
+    <div class="dot-mobile">.</div>
+    <div class="terms-mobile">Terms of Use</div>
+</div>
+  
+
+  </div>
+</div>
+
+</html>
+
+
+<script src="index.js">
+    
+</script>

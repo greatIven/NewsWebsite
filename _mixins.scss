@@ -1,0 +1,536 @@
+@mixin header-prop(
+  $bgcolor: #192140,
+  $header-height: 84px,
+  $header-width: 1200px
+) {
+  width: $header-width;
+  height: $header-height;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: $bgcolor;
+  z-index: 100;
+}
+@mixin menu-container($menu-height: 48px, $menu-width: 614px) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 60px;
+
+  position: absolute;
+  width: $menu-width;
+  height: $menu-height;
+  right: 80px;
+  top: calc(50% - 48px / 2);
+}
+@mixin main-menu($mheight: 24px, $mwidth: 390px) {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: $mwidth;
+  height: $mheight;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+@mixin list-menu($text-height: 24px, $text-width: 34px, $font-weight: 500) {
+  width: $text-width;
+  height: $text-height;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: $font-weight;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #dcf10d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+@mixin btn($btn-height: 48px, $btn-width: 164px) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+
+  width: $btn-width;
+  height: $btn-height;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+@mixin lgn-btn($lgn-btn-height: 48px, $lgn-btn-width: 86px) {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 5px;
+
+  width: $lgn-btn-width;
+  height: $lgn-btn-height;
+
+  border: 1px solid #0266ff;
+  border-radius: 40px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+@mixin login($lgn-text-height: 16px, $lgn-text-width: 46px) {
+  width: $lgn-text-width;
+  height: $lgn-text-height;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  color: #0266ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+@mixin logo-ref($logo-heigth: 26px, $logo-width: 109.71px) {
+  position: absolute;
+  left: 6.67%;
+  right: 84.19%;
+  top: 34.52%;
+  bottom: 34.52%;
+  height: $logo-heigth;
+  width: $logo-width;
+}
+@mixin div-classbody($body-width: 1200px, $body-height: 1097px) {
+  position: relative;
+  width: $body-width;
+  height: $body-height;
+  margin-top: 84px;
+}
+@mixin card($card-height: 300px, $card-width: 320px) {
+  position: absolute;
+  width: $card-width;
+  height: $card-height;
+  left: 810px;
+  top: 737px;
+  border-radius: 6px;
+}
+@mixin cardinfo($cardinfo-height: 146px) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 20px;
+  gap: 20px;
+
+  position: absolute;
+  height: $cardinfo-height;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+
+  background: #f8f9fc;
+  border-radius: 0px 0px 6px 6px;
+}
+@mixin card-infoA($card-infoA-height: 126px, $card-infoA-width: 280px) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: $card-infoA-width;
+  height: $card-infoA-height;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+@mixin img($img-height: 250px) {
+  position: absolute;
+  height: $img-height;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+  border-radius: 6px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@mixin icon-A($icon-width: 20px, $icon-height: 20px) {
+  box-sizing: border-box;
+
+  width: $icon-width;
+  height: $icon-height;
+
+  border: 1px solid #192140;
+  border-radius: 10000px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  left: 29%;
+  right: 26%;
+  top: 28%;
+  bottom: 27%;
+
+  background: #192140;
+}
+
+@mixin title($title-height: 52px, $title-width: 280px) {
+  width: $title-width;
+  height: $title-height;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+
+  /* or 26px */
+  letter-spacing: -0.02em;
+  color: #10131c;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+@mixin element($el-height: 34px, $el-width: 280px) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: $el-width;
+  height: $el-height;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+@mixin line-A($line-width: 280px, $line-height: 0px) {
+  width: $line-width;
+  height: $line-height;
+  border: 0.5px solid #9d9db5;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+@mixin post-info-A($post-info-height: 24px, $post-info-width: 280px) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: $post-info-width;
+  height: $post-info-height;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+@mixin sort-date-box($sort-date-height: 24px, $sort-date-width: 125px) {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 10px;
+  gap: 5px;
+
+  width: $sort-date-width;
+  height: $sort-date-height;
+
+  border: 1px solid #c0bfcf;
+  border-radius: 40px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+@mixin text-date($text-date-height: 16px, $text-date-width: 105px) {
+  width: $text-date-width;
+  height: $text-date-height;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+
+  /* identical to box height, or 16px */
+  text-align: center;
+
+  color: #9d9db5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+@mixin sort-fav-box($sort-box-height: 24px, $sort-box-width: 53px) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 2px;
+
+  width: $sort-box-width;
+  height: $sort-box-height;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+@mixin icon-fav($icon-height: 24px, $icon-width: 24px) {
+  width: $icon-width;
+  height: $icon-height;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background-image: url("../icon/active.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin text-fav($text-fav-height: 16px, $text-fav-width: 27px) {
+  width: $text-fav-width;
+  height: $text-fav-height;
+
+  /* Text Small Regular */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+
+  /* identical to box height, or 16px */
+  letter-spacing: -0.03em;
+
+  color: #9d9db5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+@mixin icon-cross(
+  $left-cross: 89.06%,
+  $right-cross: 4.69%,
+  $top-cross: 5%,
+  $bottom-cross: 88.33%
+) {
+  box-sizing: border-box;
+
+  position: absolute;
+  left: $left-cross;
+  right: $right-cross;
+  top: $top-cross;
+  bottom: $bottom-cross;
+
+  // border: 1px solid #9d9db5;
+  // border-radius: 10000px;
+  // background-image: url("../icon/cross.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@mixin shadow(
+  $bgcolor: linear-gradient(180deg, #192140 0%, rgba(25, 33, 64, 0) 70.8%)
+) {
+  position: absolute;
+  height: 250px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: $bgcolor;
+  border-radius: 6px;
+}
+@mixin footer($footer-height: 274px, $footer-width: 1200px) {
+  width: $footer-width;
+  height: $footer-height;
+
+  background: #10131c;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+@mixin leg-desk($leg-height: 16px, $leg-width: 311px) {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  position: relative;
+  width: $leg-width;
+  height: $leg-height;
+  left: 800px;
+  top: 198px;
+}
+@mixin frame-B($frameB-height: 56px, $frameB-width: 300px) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  position: relative;
+  width: 300px;
+  height: 56px;
+  left: 800px;
+  top: 60px;
+}
+@mixin follow-us($f-height: 16px, $f-width: 53px) {
+  width: $f-width;
+  height: $f-height;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+
+  /* identical to box height, or 16px */
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+@mixin frame-A($frameA-height: 154px, $frameA-width: 630px) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: relative;
+  width: $frameA-width;
+  height: $frameA-height;
+  left: 80px;
+  top: 5px;
+}
+@mixin ref-desk-policy-dot($ref-height: 16px, $ref-width: 131px) {
+  width: $ref-width;
+  height: $ref-height;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+
+  /* identical to box height, or 16px */
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+
+  opacity: 0.4;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+@mixin social-net-blog($soc-blog-height: 30px, $soc-blog-width: 300px) {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+
+  width: $soc-blog-width;
+  height: $soc-blog-height;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+@mixin text-blog($text-height: 21px, $text-width: 43px) {
+  width: $text-width;
+  height: $text-height;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+
+  /* identical to box height, or 21px */
+  letter-spacing: -0.02em;
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+@mixin footer-menu-item($text-height: 16px, $text-width: 68px) {
+  width: $text-width;
+  height: $text-height;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  /* identical to box height, or 16px */
+  letter-spacing: -0.03em;
+  color: #d7f8ff;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+@mixin logo-menu-burger($logo-burger-height: 40px, $logo-burger-width: 40px) {
+  position: absolute;
+  width: $logo-burger-width;
+  height: $logo-burger-height;
+  right: 15px;
+  top: 40px;
+}

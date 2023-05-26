@@ -1,0 +1,2907 @@
+@media only screen and (min-width: 768px) {
+  header {
+    width: 1200px;
+    height: 84px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #192140;
+    z-index: 100;
+  }
+  .menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+    position: absolute;
+    width: 614px;
+    height: 48px;
+    right: 80px;
+    top: calc(50% - 24px);
+  }
+  .main-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 390px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .blog {
+    width: 34px;
+    height: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #dcf10d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .courses {
+    width: 94px;
+    height: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #dcf10d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #ffffff;
+    order: 1;
+  }
+  .freeweb {
+    width: 108px;
+    height: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #dcf10d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #ffffff;
+    order: 2;
+  }
+  .review {
+    width: 64px;
+    height: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #dcf10d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #ffffff;
+    order: 3;
+  }
+  .btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 164px;
+    height: 48px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .sgnup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 58px;
+    height: 16px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: "Inter";
+    font-style: "normal";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #9d9db5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .login-btn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 5px;
+    width: 86px;
+    height: 48px;
+    border: 1px solid #0266ff;
+    border-radius: 40px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .login {
+    width: 46px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #0266ff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .logo-ref {
+    position: absolute;
+    left: 6.67%;
+    right: 84.19%;
+    top: 34.52%;
+    bottom: 34.52%;
+    height: 26px;
+    width: 109.71px;
+  }
+  .logo-menu-burger {
+    display: none;
+  }
+  .divclassbody {
+    position: relative;
+    width: 1200px;
+    height: 1097px;
+    margin-top: 84px;
+  }
+  .card1 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+  }
+  .cardinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+  }
+  .card-infoA {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .img1 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/Image1.png");
+  }
+  .icon-A {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #192140;
+    border-radius: 10000px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    left: 29%;
+    right: 26%;
+    top: 28%;
+    bottom: 27%;
+    background: #192140;
+  }
+  .title {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .element {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 34px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .line-A {
+    width: 280px;
+    height: 0px;
+    border: 0.5px solid #9d9db5;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .post-info-A {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .sort-date-box {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 10px;
+    gap: 5px;
+    width: 125px;
+    height: 24px;
+    border: 1px solid #c0bfcf;
+    border-radius: 40px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .text-date {
+    width: 105px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    text-align: center;
+    color: #9d9db5;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .sort-fav-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 2px;
+    width: 53px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .icon-fav {
+    width: 24px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background-image: url("../icon/active.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text-fav {
+    width: 27px;
+    height: 16px;
+    /* Text Small Regular */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #9d9db5;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .card2 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    left: 440px;
+    top: 738px;
+  }
+  .cardinfoB {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+  }
+  .card-infoB {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .img2 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/Image2.png");
+  }
+  .titleB {
+    height: 78px;
+    order: 0;
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .card3 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    left: 80px;
+    top: 740px;
+  }
+  .cardinfoC {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 90px;
+  }
+  .card-infoC {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    height: 70px;
+  }
+  .img3 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/Image3.png");
+  }
+  .titleC {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    height: 26px;
+    order: 0;
+  }
+  .card4 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    left: 810px;
+    top: 399px;
+  }
+  .cardinfoD {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 142px;
+  }
+  .card-infoD {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    height: 122px;
+  }
+  .img4 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/Image4.png");
+  }
+  .titleD {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    order: 0;
+    height: 78px;
+  }
+  .card5 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    left: 440px;
+    top: 399px;
+  }
+  .cardinfoE {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 116px;
+  }
+  .card-infoE {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    height: 96px;
+  }
+  .img5 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/Image5.png");
+  }
+  .titleE {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    height: 52px;
+    order: 0;
+  }
+  .card6 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    left: 80px;
+    top: 400px;
+  }
+  .cardinfoF {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 172px;
+  }
+  .card-infoF {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    height: 152px;
+  }
+  .img6 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/Image6.png");
+  }
+  .titleF {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    height: 78px;
+  }
+  .card7 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    left: 800px;
+    top: 60px;
+  }
+  .cardinfoG {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+  }
+  .card-infoG {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .img7 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/Image7.png");
+  }
+  .titleG {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .card8 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    left: 440px;
+    top: 60px;
+  }
+  .cardinfoH {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 116px;
+  }
+  .card-infoH {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    height: 96px;
+  }
+  .img8 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/Image8.png");
+  }
+  .titleH {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .card9 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    left: 80px;
+    top: 60px;
+  }
+  .cardinfoI {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 172px;
+  }
+  .card-infoI {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    height: 152px;
+  }
+  .img9 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/Image9.png");
+  }
+  .titleI {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    height: 78px;
+  }
+  .icon-cross {
+    box-sizing: border-box;
+    position: absolute;
+    left: 89.06%;
+    right: 4.69%;
+    top: 5%;
+    bottom: 88.33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .shadow {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #192140 0%, rgba(25, 33, 64, 0) 70.8%);
+    border-radius: 6px;
+  }
+  .footer {
+    width: 1200px;
+    height: 274px;
+    background: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+  .leg-desk {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    position: relative;
+    width: 311px;
+    height: 16px;
+    left: 800px;
+    top: 198px;
+  }
+  .frame-B {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    position: relative;
+    width: 300px;
+    height: 56px;
+    left: 800px;
+    top: 60px;
+  }
+  .follow-us {
+    width: 53px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .frame-A {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: relative;
+    width: 630px;
+    height: 154px;
+    left: 80px;
+    top: 5px;
+  }
+  .ref-desk {
+    width: 131px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    opacity: 0.4;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .policy-desk {
+    width: 131px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    opacity: 0.4;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 74px;
+    order: 1;
+  }
+  .dot-desk {
+    width: 131px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    opacity: 0.4;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 4px;
+    order: 2;
+  }
+  .terms-desk {
+    width: 131px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    opacity: 0.4;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 72px;
+    order: 3;
+  }
+  .leg-mobile,
+  .policy-mobile,
+  .dot-mobile,
+  .terms-mobile {
+    display: none;
+  }
+  .follow-us-mob,
+  .insta-mob,
+  .insta1-mob,
+  .fb-mob,
+  .tw-mob,
+  .Wu-mob,
+  .tk-mob,
+  .yt-mob {
+    display: none;
+  }
+  .social-net {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 300px;
+    height: 30px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .blog1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 300px;
+    height: 30px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    flex-direction: column;
+    gap: 20px;
+    width: 547px;
+    height: 57px;
+    order: 0;
+  }
+  .blog-text {
+    width: 43px;
+    height: 21px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .footer-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 300px;
+    height: 30px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    gap: 20px;
+    width: 547px;
+    height: 16px;
+  }
+  .menu-1 {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .menu-2 {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 82px;
+    order: 1;
+  }
+  .menu-3 {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 37px;
+    order: 2;
+  }
+  .menu-4 {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 86px;
+    order: 3;
+  }
+  .menu-5 {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 44px;
+    order: 4;
+  }
+  .menu-6 {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 57px;
+    order: 5;
+  }
+  .menu-7 {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 53px;
+    order: 6;
+  }
+  .courses-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 300px;
+    height: 30px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    flex-direction: column;
+    gap: 20px;
+    width: 196px;
+    height: 57px;
+  }
+  .courses-text {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 113px;
+    height: 21px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+  .courses-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 300px;
+    height: 30px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    gap: 20px;
+    width: 196px;
+    height: 16px;
+  }
+  .course-1 {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 77px;
+  }
+  .course-2 {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 99px;
+    order: 1;
+  }
+  .footer-menu-mobile-A,
+  .footer-menu-mobile-B,
+  .footer-menu-mobile-C {
+    display: none;
+  }
+  .menu-1-mobile,
+  .menu-2-mobile,
+  .menu-3-mobile,
+  .menu-4-mobile,
+  .menu-5-mobile,
+  .menu-6-mobile,
+  .menu-7-mobile {
+    display: none;
+  }
+  .favorite {
+    background-image: url("../icon/fav.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .title:hover {
+    opacity: 90;
+    background-color: #dcf10d;
+  }
+  .icon-A1 {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .display-check {
+    background-image: url("../icon/done.png");
+  }
+  .display-cross {
+    border: 1px solid #9d9db5;
+    border-radius: 10000px;
+    background-image: url("../icon/cross.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .shad1 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #192140 0%, rgba(25, 33, 64, 0) 70.8%);
+    border-radius: 6px;
+    width: 320px;
+    background: none;
+  }
+  .bg-shad {
+    background: linear-gradient(180deg, #192140 0%, rgba(25, 33, 64, 0) 70.8%);
+  }
+}
+@media only screen and (max-width: 767px) {
+  header {
+    width: 1200px;
+    height: 84px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #192140;
+    z-index: 100;
+    width: 320px;
+    height: 90px;
+  }
+  .logo-ref {
+    position: absolute;
+    left: 6.67%;
+    right: 84.19%;
+    top: 34.52%;
+    bottom: 34.52%;
+    height: 26px;
+    width: 109.71px;
+    width: 76px;
+    height: 17px;
+    left: 14px;
+    top: 52px;
+    font-family: "Inter";
+    font-style: "normal";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .logo-menu-burger {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 15px;
+    top: 40px;
+  }
+  .menu-container {
+    display: none;
+  }
+  .main-menu {
+    display: none;
+  }
+  .blog {
+    display: none;
+  }
+  .courses {
+    display: none;
+  }
+  .freeweb {
+    display: none;
+  }
+  .review {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .sgnup {
+    display: none;
+  }
+  .footer {
+    width: 1200px;
+    height: 274px;
+    background: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 15px;
+    width: 320px;
+    height: 429px;
+  }
+  .pc-footer {
+    width: 1200px;
+    height: 274px;
+    background: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 290px;
+    height: 328px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+  }
+  .frame-A {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: relative;
+    width: 630px;
+    height: 154px;
+    left: 80px;
+    top: 5px;
+    gap: 30px;
+    width: 290px;
+    height: 176px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    left: 0px;
+    top: 5px;
+  }
+  .blog1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 300px;
+    height: 30px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    flex-direction: column;
+    gap: 10px;
+    width: 290px;
+    height: 99px;
+    order: 0;
+    align-self: stretch;
+  }
+  .blog-text {
+    width: 43px;
+    height: 21px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .footer-menu {
+    display: none;
+  }
+  .menu-1,
+  .menu-2,
+  .menu-3,
+  .menu-4,
+  .menu-5,
+  .menu-6,
+  .menu-7 {
+    display: none;
+  }
+  .footer-menu-mobile-A {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: relative;
+    width: 630px;
+    height: 154px;
+    left: 80px;
+    top: 5px;
+    flex-direction: row;
+    gap: 10px;
+    width: 160px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+  }
+  .footer-menu-mobile-B {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    position: relative;
+    width: 300px;
+    height: 56px;
+    left: 800px;
+    top: 60px;
+    flex-direction: row;
+    width: 187px;
+    height: 16px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    left: 0px;
+    top: 0px;
+  }
+  .footer-menu-mobile-C {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    position: relative;
+    width: 300px;
+    height: 56px;
+    left: 800px;
+    top: 60px;
+    flex-direction: row;
+    width: 120px;
+    height: 16px;
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    left: 0px;
+    top: 0px;
+  }
+  .menu-1-mobile {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .menu-2-mobile {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 82px;
+    order: 1;
+  }
+  .menu-3-mobile {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 37px;
+  }
+  .menu-4-mobile {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 86px;
+    order: 1;
+  }
+  .menu-5-mobile {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 44px;
+    order: 2;
+  }
+  .menu-6-mobile {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 57px;
+  }
+  .menu-7-mobile {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 53px;
+    order: 1;
+  }
+  .courses-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 300px;
+    height: 30px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    flex-direction: column;
+    gap: 10px;
+    width: 290px;
+    height: 47px;
+    align-self: stretch;
+  }
+  .courses-text {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 113px;
+    height: 21px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+  .courses-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 300px;
+    height: 30px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    gap: 10px;
+    width: 186px;
+    height: 16px;
+  }
+  .course-1 {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 77px;
+  }
+  .course-2 {
+    width: 68px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #d7f8ff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 99px;
+    order: 1;
+  }
+  .leg-desk,
+  .ref-desk,
+  .policy-desk,
+  .dot-desk,
+  .terms-desk {
+    display: none;
+  }
+  .follow-us,
+  .insta,
+  .insta1,
+  .fb,
+  .tw,
+  .Wu,
+  .tk,
+  .yt {
+    display: none;
+  }
+  .follow-us-mob {
+    width: 53px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #9d9db5;
+  }
+  .leg-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    position: relative;
+    width: 311px;
+    height: 16px;
+    left: 800px;
+    top: 198px;
+    gap: 5px;
+    width: 290px;
+    height: 16px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    left: 0px;
+    top: 0px;
+  }
+  .policy-mobile {
+    width: 131px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    opacity: 0.4;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 74px;
+    color: #9d9db5;
+  }
+  .dot-mobile {
+    width: 131px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    opacity: 0.4;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 4px;
+    order: 2;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: #9d9db5;
+    order: 1;
+  }
+  .terms-mobile {
+    width: 131px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    opacity: 0.4;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 72px;
+    color: #9d9db5;
+    order: 2;
+  }
+  .element {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 34px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 250px;
+  }
+  .line-A {
+    width: 280px;
+    height: 0px;
+    border: 0.5px solid #9d9db5;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 250px;
+  }
+  .post-info-A {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 250px;
+  }
+  .sort-date-box {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 10px;
+    gap: 5px;
+    width: 125px;
+    height: 24px;
+    border: 1px solid #c0bfcf;
+    border-radius: 40px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .text-date {
+    width: 105px;
+    height: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    text-align: center;
+    color: #9d9db5;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .sort-fav-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 2px;
+    width: 53px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .icon-fav {
+    width: 24px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background-image: url("../icon/active.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text-fav {
+    width: 27px;
+    height: 16px;
+    /* Text Small Regular */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.03em;
+    color: #9d9db5;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .card9 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    width: 290px;
+    height: 257px;
+    left: 15px;
+    top: 40px;
+  }
+  .cardinfoI {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 151px;
+  }
+  .card-infoI {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 250px;
+    height: 131px;
+  }
+  .img9 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/Image9.png");
+    height: 180px;
+    width: 290px;
+  }
+  .titleI {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 190px;
+    height: 57px;
+    font-size: 17px;
+  }
+  .icon-cross {
+    box-sizing: border-box;
+    position: absolute;
+    left: 89.06%;
+    right: 4.69%;
+    top: 5%;
+    bottom: 88.33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 87.93%;
+    right: 5.17%;
+    top: 5.84%;
+    bottom: 86.38%;
+  }
+  .shadow {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #192140 0%, rgba(25, 33, 64, 0) 70.8%);
+    border-radius: 6px;
+    width: 290px;
+  }
+  .divclassbody {
+    position: relative;
+    width: 1200px;
+    height: 1097px;
+    margin-top: 84px;
+    width: 320px;
+    height: 2573px;
+    background: #ffffff;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .card8 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    width: 290px;
+    height: 257px;
+    left: 15px;
+    top: 317px;
+  }
+  .cardinfoH {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 145px;
+  }
+  .card-infoH {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 250px;
+    height: 82px;
+  }
+  .img8 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 290px;
+    background-image: url("../images/Image8.png");
+  }
+  .titleH {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 250px;
+    height: 70px;
+    order: 0;
+  }
+  .card7 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 290px;
+    height: 257px;
+    left: 14px;
+    top: 594px;
+  }
+  .cardinfoG {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 151px;
+  }
+  .card-infoG {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 250px;
+    height: 131px;
+  }
+  .img7 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/Image7.png");
+    height: 180px;
+    width: 290px;
+  }
+  .titleG {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 250px;
+    height: 57px;
+  }
+  .card6 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    width: 290px;
+    height: 257px;
+    left: 14px;
+    top: 871px;
+  }
+  .cardinfoF {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 151px;
+  }
+  .card-infoF {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 250px;
+    height: 131px;
+  }
+  .img6 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/Image6.png");
+    height: 180px;
+    width: 290px;
+  }
+  .titleF {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 260px;
+    height: 78px;
+  }
+  .card5 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    width: 290px;
+    height: 257px;
+    left: 14px;
+    top: 1148px;
+  }
+  .cardinfoE {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 112px;
+  }
+  .card-infoE {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 250px;
+    height: 82px;
+  }
+  .img5 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 290px;
+    background-image: url("../images/Image5.png");
+  }
+  .titleE {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 250px;
+    height: 38px;
+    order: 0;
+  }
+  .card4 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    width: 290px;
+    height: 257px;
+    left: 14px;
+    top: 1425px;
+  }
+  .cardinfoD {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 140px;
+  }
+  .card-infoD {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 250px;
+    height: 101px;
+  }
+  .img4 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 290px;
+    background-image: url("../images/Image4.png");
+  }
+  .titleD {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 240px;
+    height: 57px;
+    order: 0;
+  }
+  .card3 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    width: 290px;
+    height: 257px;
+    left: 14px;
+    top: 1702px;
+  }
+  .cardinfoC {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 100px;
+  }
+  .card-infoC {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 250px;
+    height: 63px;
+  }
+  .img3 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 290px;
+    background-image: url("../images/Image3.png");
+  }
+  .titleC {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 190px;
+    height: 19px;
+    order: 0;
+  }
+  .card2 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    width: 290px;
+    height: 257px;
+    left: 14px;
+    top: 1979px;
+  }
+  .cardinfoB {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 145px;
+  }
+  .card-infoB {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 250px;
+    height: 101px;
+  }
+  .img2 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 290px;
+    background-image: url("../images/Image2.png");
+  }
+  .titleB {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 250px;
+    height: 65px;
+    order: 0;
+  }
+  .card1 {
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    left: 810px;
+    top: 737px;
+    border-radius: 6px;
+    width: 290px;
+    height: 257px;
+    left: 14px;
+    top: 2256px;
+  }
+  .cardinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
+    position: absolute;
+    height: 146px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #f8f9fc;
+    border-radius: 0px 0px 6px 6px;
+    height: 151px;
+  }
+  .card-infoA {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 280px;
+    height: 126px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 250px;
+    height: 131px;
+  }
+  .img1 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url(refocus_leadership_sci-fi_style_blurred_background_concept_art__c4a66a99-86b1-4425-a002-7009d0f6b601.png);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 290px;
+    background-image: url("../images/Image1.png");
+  }
+  .icon-A {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #192140;
+    border-radius: 10000px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .icon-A {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #192140;
+    border-radius: 10000px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    left: 29%;
+    right: 26%;
+    top: 28%;
+    bottom: 27%;
+    background: #192140;
+    position: absolute;
+  }
+  .title {
+    width: 280px;
+    height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    letter-spacing: -0.02em;
+    color: #10131c;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .favorite {
+    background-image: url("../icon/fav.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .title:hover {
+    opacity: 90;
+  }
+  .icon-A1 {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .display-check {
+    background-image: url("../icon/done.png");
+  }
+  .display-cross {
+    border: 1px solid #9d9db5;
+    border-radius: 10000px;
+    background-image: url("../icon/cross.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .shad1 {
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #192140 0%, rgba(25, 33, 64, 0) 70.8%);
+    border-radius: 6px;
+    width: 290px;
+    background: none;
+  }
+  .bg-shad {
+    background: linear-gradient(180deg, #192140 0%, rgba(25, 33, 64, 0) 70.8%);
+  }
+}/*# sourceMappingURL=main.css.map */
